@@ -31,7 +31,7 @@ brew install git wget cmake autoconf automake libtool
 
 ### Windows
 
-Install [MSYS2](http://www.msys2.org/) and launch the MinGW 64-bit shell (not the default MSYS shell).
+Install [MSYS2](http://www.msys2.org/) and launch the MinGW 64-bit shell by running `mingw64.exe` in the mysys64 installation directory (not the default MSYS shell).
 ```
 pacman -S git wget make tar unzip zip mingw-w64-x86_64-gcc mingw-w64-x86_64-cmake autoconf automake mingw-w64-x86_64-libtool
 ```
